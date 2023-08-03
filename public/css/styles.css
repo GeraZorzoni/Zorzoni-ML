@@ -1,0 +1,33 @@
+/*body{
+    background-color: red;    
+}  
+
+.encabezado{
+    background-color:#03264C;
+}
+
+#lala {
+
+}
+Esta manera no es la mejor por ser la mas larga
+*/
+
+/* Forma de usar clases para distrbuir los colores mas practica
+ Se pueden juntar las clases class= ".bg-yellow .w-50"
+*/
+
+.bg-yellow {
+    background-color: #EAC926;
+}
+
+.bg-lightgrey{
+    background-color:#ebebeb ;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.p-1{
+    padding: 8px;
+}
