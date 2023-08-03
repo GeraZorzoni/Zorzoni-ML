@@ -1,20 +1,27 @@
 /*body{
     background-color: red;    
 }  
-
 .encabezado{
     background-color:#03264C;
 }
-
 #lala {
-
 }
 Esta manera no es la mejor por ser la mas larga
 */
 
+
 /* Forma de usar clases para distrbuir los colores mas practica
  Se pueden juntar las clases class= ".bg-yellow .w-50"
 */
+*{
+padding: 0;
+margin: 0;
+}
+
+
+body {
+    font-family: "Roboto";
+}
 
 .bg-yellow {
     background-color: #EAC926;
