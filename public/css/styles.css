@@ -26,9 +26,20 @@ body {
 .bg-yellow {
     background-color: #EAC926;
 }
+.bg-blue {
+    background-color: #03264C;
+}
+
+.bg-darkgrey{
+    background-color:#666 ;
+}
 
 .bg-lightgrey{
     background-color:#ebebeb ;
+}
+
+.bg-green{
+    background-color:#39b54a ;
 }
 
 .w-50{
@@ -38,3 +49,21 @@ body {
 .p-1{
     padding: 8px;
 }
+
+.tsize12{
+    font-size: 12px;
+}
+
+.tsize24{
+    font-size: 24px;
+}
+
+.tsize18{
+    font-size: 18px;
+}
+
+.tsize16{
+    font-size: 16px;
+}
+
+
