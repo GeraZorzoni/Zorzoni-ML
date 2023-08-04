@@ -75,6 +75,9 @@ body {
     font-size: 18px;
     text-align: center;
     color: white ;
-    
+    padding: 15px;
 }
 
+.padicon {
+    padding: 8px;
+}
