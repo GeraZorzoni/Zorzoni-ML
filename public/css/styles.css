@@ -1,27 +1,61 @@
-/*body{
-    background-color: red;    
-}  
-.encabezado{
-    background-color:#03264C;
-}
-#lala {
-}
-Esta manera no es la mejor por ser la mas larga
-*/
 
-
-/* Forma de usar clases para distrbuir los colores mas practica
- Se pueden juntar las clases class= ".bg-yellow .w-50"
-*/
 *{
 padding: 0;
 margin: 0;
+box-sizing: border-box;
 }
-
 
 body {
     font-family: "Roboto";
 }
+/* si apuntamos a un tag no hace falta escribirlo como clase*/
+
+main{
+   
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 90vw
+}
+
+.header-center{
+
+    font-size: 12;
+    text-align: center;
+    padding: 20px;
+}
+.article{
+    margin: 10px;
+}
+
+.footer{
+    width: 90%;
+    text-align: center;
+    align-items: center
+
+}
+
+.footericons{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #03264C;
+}
+
+.footer-text {
+    font-size: 12px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    max-width: 260px;
+}
+
+.copyright{
+    text-align: left;
+    margin-left: 30px;
+    
+}
+
 
 .bg-yellow {
     background-color: #EAC926;
@@ -50,9 +84,6 @@ body {
     padding: 8px;
 }
 
-.tsize12{
-    font-size: 12px;
-}
 
 .tsize24{
     font-size: 24px;
@@ -66,18 +97,50 @@ body {
     font-size: 16px;
 }
 
-.center {
-    text-align: center;
+
+.left {
+    text-align: left;
+}
+
+
+.bt-1{
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.bordergrey{
+    background-color:#ebebeb ;
 }
 
 .burger-menu{
 
-    font-size: 18px;
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    
+    padding: 6px 0;
+    border-radius: 6px;
     text-align: center;
-    color: white ;
-    padding: 15px;
+    font-size: 30px;
+    margin: auto;
 }
 
 .padicon {
     padding: 8px;
+}
+
+
+
+
+/*Tablet*/
+@media (min-width: 520px){
+    .md-product-shadow{
+    box-shadow : 0px 0px 10px rgb(100,100,100);
+}
+
+}
+/*Desktop*/
+@media (min-width: 1280px){
+
 }
