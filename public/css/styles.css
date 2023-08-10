@@ -7,8 +7,23 @@ box-sizing: border-box;
 
 body {
     font-family: "Roboto";
+    background-color:#ebebeb
 }
 /* si apuntamos a un tag no hace falta escribirlo como clase*/
+
+
+header{
+    background-color: #EAC926;
+    padding: 8px;
+
+}
+
+.header-center{
+
+    font-size: 12;
+    text-align: center;
+    padding: 20px;
+}
 
 main{
    
@@ -18,15 +33,51 @@ main{
     width: 90vw
 }
 
-.header-center{
+.main-title{
+    font-size: 24px;
 
-    font-size: 12;
-    text-align: center;
-    padding: 20px;
 }
+
+
 .article{
     margin: 10px;
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    padding-bottom: 10px;
+  
+   
+    
 }
+.priceside{
+    
+    display: flex;
+    align-items:end;
+    padding-bottom: 10px;
+    
+   
+
+}
+.discount{
+    flex-grow: 70%;
+    padding-left: 20px;
+    font-size: 16px;
+    color:#39b54a;
+}
+
+.price{
+    flex-grow: 30%;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.product-title{
+    color: #666 ;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 25px;
+}
+
 
 .footer{
     width: 90%;
@@ -57,9 +108,7 @@ main{
 }
 
 
-.bg-yellow {
-    background-color: #EAC926;
-}
+/*
 .bg-blue {
     background-color: #03264C;
 }
@@ -68,38 +117,12 @@ main{
     background-color:#666 ;
 }
 
-.bg-lightgrey{
-    background-color:#ebebeb ;
-}
-
 .bg-green{
     background-color:#39b54a ;
 }
 
 .w-50{
     width: 50%;
-}
-
-.p-1{
-    padding: 8px;
-}
-
-
-.tsize24{
-    font-size: 24px;
-}
-
-.tsize18{
-    font-size: 18px;
-}
-
-.tsize16{
-    font-size: 16px;
-}
-
-
-.left {
-    text-align: left;
 }
 
 
@@ -112,6 +135,13 @@ main{
     background-color:#ebebeb ;
 }
 
+
+.padicon {
+    padding: 8px;
+}
+
+
+*/
 .burger-menu{
 
     background-color: #03264C;
@@ -126,9 +156,6 @@ main{
     margin: auto;
 }
 
-.padicon {
-    padding: 8px;
-}
 
 
 
