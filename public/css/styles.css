@@ -48,9 +48,6 @@ body {
    
 }
 
-   
-
-
 main{
    
     margin: auto;
@@ -82,6 +79,8 @@ main{
     padding-bottom: 10px;
     border-top: 1px solid #ebebeb;
     position: relative;
+    
+    
 
 }
 .priceside >.logo-envio{
@@ -145,7 +144,8 @@ main{
 
 .copyright{
     text-align: left;
-    margin-left: 30px;
+    font-size: 12px;
+    margin-left: 20px;
     
 }
 
@@ -164,7 +164,7 @@ main{
 
 
 /* cambiar luego a 361*/
-@media (min-width: 450px){
+@media (min-width: 390px){
     .product-title{
         display: flex;
     }
