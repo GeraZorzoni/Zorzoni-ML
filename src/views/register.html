@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href= "/css/styles.css">
+    <title>Mercado Liebre</title>
+</head>
+<body>
+ <!-- 
+
+■ Categorías de interés (puede elegir más de una)
+● Electro
+● Moda
+● Hogar
+● Juguetería
+● Vida sana
+■ Foto de usuario
+■ Contraseña
+■ Confirmar contraseña
+■ Botón de enviar que nos lleve a la página principal
+■ Botón de borrar todos los datos del formulario-->
+
+<!--Formulario - rutas las nombro aun no creadas-->
+<form action="/create-form" method="POST" class="create-form">
+    <h3>Formulario Registro</h3>
+    <div class="form">
+        <label>Nombre y apellido</label>
+        <input type="text" name="name" class="data">
+    </div>
+    <div class="form">
+        <label>Nombre de usuari@</label>
+        <input type="text" name="user" class="data">
+    </div>
+    <div class="form">
+        <label>Fecha de nacimiento</label>
+        <input type="date" name="date" class="data">
+    </div>
+    <div class="form">
+        <label>Domicilio</label>
+        <input type="text" name="addres" class="data">
+    </div>
+    <div class="form">
+        <label>Perfil de Usuario</label>
+        <select name="Perfil">
+            <option value="comprar">Comprar</option>
+            <option value="vender">Vender</option>
+        </select>
+    </div>
+    <div class="form">
+        <label>Categorías de interés</label><br />
+
+        <label for="electro">Electro</label>
+        <input type="checkbox" name="interest" value="electro"><br />
+        <label for="moda">Moda</label>
+        <input type="checkbox" name="interest" value="moda"><br />
+        <label for="hogar">Hogar</label>
+        <input type="checkbox" name="interest" value="hogar"><br />
+        <label for="jugueteria">jugueteria</label>
+        <input type="checkbox" name="interest" value="jugueteria"><br />
+        <label for="vidaSana">Vida sana</label>
+        <input type="checkbox" name="interest" value="vidaSana"><br />
+    </div>
+    <div class="form">
+        <label for="avatar">Foto Usuario</label>
+        <input type="file" name="avatar" accept=".jpg">
+
+    </div>
+
+
+
+</form>
+    
+</body>
+</html>

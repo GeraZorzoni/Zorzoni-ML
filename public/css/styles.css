@@ -21,10 +21,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    
     justify-content: space-around;
     border: dotted 5px red;
 }
+/* Con este metodo achico la caja del flex*/
+.main-header-top-bar>* {
+        flex: 1 2 110px;
+    }
+
 .logo{
     flex-wrap: unset;
     flex-grow: 50%;
@@ -32,17 +36,16 @@ body {
 }
 .header-nav-bar{
     flex-wrap: unset;
+    font-size: 12px;
     flex-grow: 50%;
     
 }
 .header-center{
     flex-wrap: wrap;
-    flex-grow: 25%;
-    order: 2;
     text-align: center;
     color:#666 ;
     padding: 20px;
-    font-size: 15px;
+    font-size: 8px;
 }
 
 
@@ -181,6 +184,20 @@ main{
         display: none;
     }
 
+    .logo{
+        align-items: flex-start;
+
+    }
+    .header-nav-bar{
+        align-items: center;
+        /*visibility: collapse;*/
+    }
+    .header-center{
+        text-align: right;
+        padding: 10px 3px;
+        /*visibility: collapse;*/
+    }
+
     .main-navbar{
         display: flex;
         justify-content: space-between;
@@ -202,9 +219,18 @@ main{
     text-decoration: none;
     color: #222222;
     display: inline-block;
-    padding: 5px 5px;
-    font-size: 10px;
+    padding: 3px 3px;
+    font-size: 8px;
+    }
 
+    .left-navbar{
+    text-align: left;
+    }
+    .right-navbar{
+    text-align: right;
+    }
+    .rn-icon{
+        font-size: 8px;
     }
 
     .section{
