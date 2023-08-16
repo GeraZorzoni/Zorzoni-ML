@@ -45,7 +45,7 @@ body {
     text-align: center;
     color:#666 ;
     padding: 20px;
-    font-size: 8px;
+    font-size: 14px;
 }
 
 
@@ -55,7 +55,6 @@ body {
 }
 
 main{
-   
     margin: auto;
     align-items: center;
     text-align: center;
@@ -71,6 +70,7 @@ main{
 
 }
 .section{
+    text-align: center;
     display: unset;
     margin: auto;
 
@@ -78,6 +78,7 @@ main{
 
 }
 .article{
+    
     margin-bottom: 10px;
     background-color: white;
     padding-bottom: 10px;
@@ -175,7 +176,9 @@ main{
 
 
 /* cambiar luego a 361*/
-@media (min-width: 390px){
+@media (min-width: 360px){
+/* main = ver display flex*/
+
     .product-title{
         display: flex;
     }
