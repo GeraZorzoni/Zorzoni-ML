@@ -10,16 +10,59 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     align-items: stretch;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
+}
+.form-main-title{
+    text-align: center;
+}
+.div-data{
+    
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    
 }
 
-.div-data{
-    width: 70%;
-    justify-content: center;
+.data-title{
+    
+    font-size: 8;
+    padding: 5px;
 }
 .data{
+    border: white;
+    border-radius: 5px;
     width: 100%;
+    height: 30px;
+}
+
+.label-ckeckbox{
+    padding-left: 10px;
+
+}
+.button-place{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    border-top: 20px;
+}
+
+.button{
+    border-radius:  5px;
+    background-color: #03264C;
+    color: white;
+    padding: 10px;
+}
+
+.button-login{
+    border-radius: 5px;
+    background-color: #03264C;
+    color: white;
+    padding: 10px;
+    width: 85%;
+
 }
