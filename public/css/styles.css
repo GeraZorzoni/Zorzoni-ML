@@ -185,10 +185,10 @@ main{
 @media (min-width: 500px) {
     /* tablet */
 
-    /*
-    description{
-        display: none
-    */
+   .article{
+    
+    width: 45%;
+   }
  .main-header-top-bar{
     flex-wrap: unset;
     }
@@ -236,7 +236,7 @@ main{
     color: #222222;
     display: inline-block;
     padding: 3px 1px;
-    font-size: 8px;
+    font-size: 12px;
     }
 
     .left-navbar{
@@ -264,9 +264,13 @@ main{
     }
     }
 
-/*
-@media (min-width: 1400px){
-Desktop
+
+@media (min-width: 1000px){
+/*Desktop*/
+.article{
+    
+    width: 23%;
+    }
 }
 
-*/
+
