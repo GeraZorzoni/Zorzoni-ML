@@ -274,9 +274,16 @@ main{
 @media (min-width: 1000px){
 /*Desktop*/
 .article{
-    
     width: 23%;
     }
+.footer section{
+    display: flex;
+    display: inline-block;
+}
+.copyright{
+    text-align: left;
+    padding-left: 40px;
+}
 }
 
 

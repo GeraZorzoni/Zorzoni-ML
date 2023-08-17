@@ -59,6 +59,7 @@
     background-color: #03264C;
     color: white;
     padding: 10px;
+    
 }
 
 .button-login{
@@ -67,7 +68,11 @@
     color: white;
     padding: 10px;
     width: 85%;
+    transition: all 450ms;
+}
 
+.button-login:hover{
+    background-color: #0022AA;
 }
 
 .footer-login{
@@ -80,6 +85,14 @@
     text-align: center;
     align-items: center;
     
-
-
 }
+
+@media (min-width: 1000px){
+/*Desktop*/
+
+.footer-login section{
+    display: flex;
+    display: inline-block;
+    }
+}
+
