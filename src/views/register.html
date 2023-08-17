@@ -10,7 +10,7 @@
 
 
     <link rel="stylesheet" href= "/css/styles.css">
-    <title>Mercado Liebre</title>
+    <title>Mercado Liebre - Registrate</title>
 </head>
 <body>
 
@@ -18,19 +18,19 @@
     <h3>Formulario Registro</h3>
     <div class="form">
         <label>Nombre y apellido</label>
-        <input type="text" name="name" class="data">
+        <input type="text" name="name" class="data" required minlength="4" maxlength="8" size="10">
     </div>
     <div class="form">
         <label>Nombre de usuari@</label>
-        <input type="text" name="user" class="data">
+        <input type="text" name="user" class="data" required minlength="4" maxlength="8" size="10">
     </div>
     <div class="form">
         <label>Fecha de nacimiento</label>
-        <input type="date" name="date" class="data">
+        <input type="date" name="date" class="data" required>
     </div>
     <div class="form">
         <label>Domicilio</label>
-        <input type="text" name="addres" class="data">
+        <input type="text" name="addres" class="data" required minlength="4" size="10">
     </div>
     <div class="form">
         <label>Perfil de Usuario</label>
@@ -55,15 +55,15 @@
     </div>
     <div class="form">
         <label>Foto Usuario</label>
-        <input type="file" name="avatar" accept=".jpg">
+        <input type="file" name="avatar" accept=".jpg" required>
     </div>
     <div>
         <label>Contraseña</label>
-        <input type="password" name="password">
+        <input type="password" name="password" required minlength="4" maxlength="8" size="10">
     </div>
     <div>
         <label>Confirmar Contraseña</label>
-        <input type="confirm-password" name="confirm-password">
+        <input type="confirm-password" name="confirm-password" required minlength="4" maxlength="8" size="10">
     </div>
     <p>
         <button type="submit"></a>Enviar</button>

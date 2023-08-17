@@ -1,9 +1,4 @@
 
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
 
 body {
     font-family: "Roboto";
@@ -20,9 +15,8 @@ body {
 .main-header-top-bar{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: space-around;
-    border: dotted 5px red;
+    
 }
 /* Con este metodo achico la caja del flex*/
 .main-header-top-bar>* {
@@ -35,7 +29,8 @@ body {
     
 }
 .header-nav-bar{
-    flex-wrap: unset;
+    display: flex;
+    justify-content: center;
     font-size: 12px;
     flex-grow: 50%;
     
@@ -52,6 +47,11 @@ body {
 .main-navbar{
     display: none;
    
+}
+
+.banner{
+    padding-top: 20px;
+    width: 100%;
 }
 
 main{
@@ -175,10 +175,23 @@ main{
 }
 
 
-/* cambiar luego a 361*/
-@media (min-width: 360px){
-/* main = ver display flex*/
+.create-form{
+    background-color: #ebebeb;
+}
 
+
+
+
+@media (min-width: 500px) {
+    /* tablet */
+
+    /*
+    description{
+        display: none
+    */
+ .main-header-top-bar{
+    flex-wrap: unset;
+    }
     .product-title{
         display: flex;
     }
@@ -214,7 +227,7 @@ main{
     }
 
     .main-navbar li {
-    margin: 0 5px;
+    margin: 0 3px;
     display: inline-block;
     }
 
@@ -222,16 +235,19 @@ main{
     text-decoration: none;
     color: #222222;
     display: inline-block;
-    padding: 3px 3px;
+    padding: 3px 1px;
     font-size: 8px;
     }
 
     .left-navbar{
+     
     text-align: left;
     }
     .right-navbar{
+    
     text-align: right;
     }
+
     .rn-icon{
         font-size: 8px;
     }
@@ -248,9 +264,9 @@ main{
     }
     }
 
-
-/*Desktop
-@media (min-width: 769px){
-
+/*
+@media (min-width: 1400px){
+Desktop
 }
+
 */
