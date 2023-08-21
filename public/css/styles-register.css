@@ -54,21 +54,15 @@
     border-top: 20px;
 }
 
-.button{
-    border-radius:  5px;
-    background-color: #03264C;
-    color: white;
-    padding: 10px;
-    
-}
-
 .button-login{
     border-radius: 5px;
     background-color: #03264C;
     color: white;
     padding: 10px;
     width: 85%;
-    transition: all 450ms;
+    transition: 400ms;
+   
+    
 }
 
 .button-login:hover{

@@ -284,6 +284,14 @@ main{
     text-align: left;
     padding-left: 40px;
 }
+
+.footericons{
+    transition: 450ms;
+}
+.footericons:hover{
+    color: #0022AA;
+}
+
 }
 
 
