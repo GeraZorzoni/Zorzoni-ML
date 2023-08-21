@@ -91,8 +91,6 @@ main{
     padding-bottom: 10px;
     border-top: 1px solid #ebebeb;
     position: relative;
-    
-    
 
 }
 .priceside >.logo-envio{
@@ -108,6 +106,19 @@ main{
     position: absolute;
     right: 20px;
     top: -15px;
+}
+
+.logo-envio:hover{
+    animation: rotation 500ms linear 1 normal;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(-90deg);
+    }
 }
 
 .discount{
@@ -195,11 +206,17 @@ main{
     
     width: 45%;
    }
- .main-header-top-bar{
+    .main-header-top-bar{
     flex-wrap: unset;
     }
     .product-title{
         display: flex;
+        opacity: 0%;
+        transition: 600ms;
+    }
+    .product-title:hover{
+        opacity: 100%;
+
     }
         
     .burger-menu{
@@ -212,12 +229,12 @@ main{
     }
     .header-nav-bar{
         align-items: center;
-        /*visibility: collapse;*/
+        
     }
     .header-center{
         text-align: right;
         padding: 10px 3px;
-        /*visibility: collapse;*/
+       
     }
 
     .main-navbar{
@@ -255,7 +272,7 @@ main{
     }
 
     .rn-icon{
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .section{
