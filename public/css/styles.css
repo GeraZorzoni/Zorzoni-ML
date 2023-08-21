@@ -35,6 +35,17 @@ body {
     flex-grow: 50%;
     
 }
+
+.form-nav-bar{
+    display:flex;
+    border-radius: 20px;
+}
+.bt-search{
+    border: none;
+    background: white;
+}
+    
+
 .header-center{
     flex-wrap: wrap;
     text-align: center;
